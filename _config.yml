@@ -7,13 +7,13 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: 
+    keywords:
 
 # Jump Links Settings
 url:
-    rss: 
+    rss:
     daily_pic: "#"
-    logo: 
+    logo:
 
 
 # ---------------------------------------------------------------
@@ -22,11 +22,11 @@ url:
 
 # Schemes
 scheme: Paradox
-#scheme: Isolation
+# scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "拥抱变化"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -34,7 +34,7 @@ uiux:
     android_chrome_color: "#0097A7"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
-    
+
 # JS Effect Switches
 js_effect:
     fade: true
@@ -50,7 +50,7 @@ reading:
 
 # Thumbnail Settings
 thumbnail:
-    purecolor: 
+    purecolor:
     random_amount: 5
 
 # Background Settings
@@ -60,16 +60,17 @@ thumbnail:
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    #bgimg: "/img/bg.png"
-    bing: 
+    # bgimg: "/img/bg.png"
+    bing:
         enable: false
-        parameter: 
+        parameter:
 
 # Images Settings
 img:
     logo: "/img/logo.png"
     avatar: "/img/avatar.png"
-    daily_pic: "/img/daily_pic.png"
+    daily_pic: "/img/iron.jpg"
+    # daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
@@ -84,37 +85,37 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    twitter: "https://twitter.com/twitter"
-    facebook: "https://www.facebook.com/facebook"
-    googleplus: "https://www.google.com/"
-    weibo: 
-    instagram: 
-    tumblr: 
-    github: 
+    email: llp0574@gmail.com
+    twitter:
+    facebook:
+    googleplus:
+    weibo: "http://weibo.com/u/1806141607"
+    instagram:
+    tumblr:
+    github: "https://github.com/llp0574"
 
 # Sidebar User Dropdown
-dropdown: 
-    Email Me: 
-        link: "#"
+dropdown:
+    Email Me:
+        link: "mailto:llp0574@gmail.com"
         icon: email
 
 # Pages Menu
 pages:
-    #about: "/about"
-    
+    关于我: "/about"
+
 
 
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
-    
+
 # Comment Systems
 # Available value:
 #     duoshuo | disqus
 comment:
-    use: 
-    shortname: 
+    use: duoshuo
+    shortname: llp0574
     duoshuo_thread_key: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
@@ -123,15 +124,15 @@ comment:
 #     swiftype | google | local
 search:
     use: google
-    swiftype_key: 
-        
+    swiftype_key:
+
 # Leancloud Views
 leancloud:
-    enable: false
-    app_id: #你的app_id
-    app_key: #你的app_key
+    enable: true
+    app_id: dFsFONvyzhvCLBqr0vdTUuQI-gzGzoHsz
+    app_key: gKQoW3SRT0IvN2krRAjKgAL2
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
-    
+
 # Busuanzi 不蒜子 Views
 busuanzi:
     enable: false
