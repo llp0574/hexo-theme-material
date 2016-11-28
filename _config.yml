@@ -11,9 +11,9 @@ head:
 
 # Jump Links Settings
 url:
-    rss:
+    rss: "#"
     daily_pic: "#"
-    logo:
+    logo: "#"
 
 
 # ---------------------------------------------------------------
