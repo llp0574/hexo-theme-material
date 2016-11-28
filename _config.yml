@@ -103,6 +103,7 @@ dropdown:
 # Pages Menu
 pages:
     关于我: "/about"
+    标签云: "/tags"
 
 
 
@@ -139,3 +140,5 @@ busuanzi:
     all_site_uv: false
     post_pv: false
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+baidu_tongji: true

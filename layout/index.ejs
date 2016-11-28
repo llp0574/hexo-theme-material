@@ -5,7 +5,7 @@
 		<%- partial("_partial/daily_pic") %>
 		<%- partial("_partial/blog_info") %>
 	<% } %>
-    
+
     <% page.posts.each(function(post) { %>
 		<% if(theme.scheme == "Paradox"){ %>
 			<!-- Paradox Thumbnail -->
@@ -16,7 +16,7 @@
         	<%- partial('_partial/Isolation-post_entry', { post: post, index: true }) %>
 		<% } %>
     <% });
-    
+
     if (page.total > 1) { %>
 		<!-- Index nav -->
         <nav class="material-nav mdl-cell mdl-cell--12-col">
@@ -27,7 +27,7 @@
             }) %>
         </nav>
     <% } %>
-    
+
 	<% if(theme.scheme == "Paradox"){ %>
 		<%- partial('_partial/Paradox-post_entry-thumbnail') %>
 	<% } %>
